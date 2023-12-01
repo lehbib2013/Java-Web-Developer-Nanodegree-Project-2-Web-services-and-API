@@ -1,5 +1,6 @@
 package com.udacity.vehicles;
 
+import com.udacity.vehicles.domain.car.Car;
 import com.udacity.vehicles.domain.manufacturer.Manufacturer;
 import com.udacity.vehicles.domain.manufacturer.ManufacturerRepository;
 import org.modelmapper.ModelMapper;
@@ -37,6 +38,7 @@ public class VehiclesApiApplication {
             repository.save(new Manufacturer(102, "Ford"));
             repository.save(new Manufacturer(103, "BMW"));
             repository.save(new Manufacturer(104, "Dodge"));
+         //   repository.save(new Car(1,"USED","body", "model",1,4,"gasoil","engine",12,1994,2022,"red"));
         };
     }
 
